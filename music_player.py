@@ -42,6 +42,7 @@ def play_time():
     statusbar.config(text=f'Time Elapsed:  {current_time}  of  {time_song_lenght}    ')
 
     if current_time>=time_song_lenght:
+        time.sleep(1.0)
         next_song()
 
     statusbar.after(1000, play_time)
