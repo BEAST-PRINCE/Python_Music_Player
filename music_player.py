@@ -129,7 +129,6 @@ def stop():
     songlist.selection_clear(tk.ACTIVE)
     statusbar.config(text='')
 
-
 # Plat Next Song
 def next_song():
     global is_paused
@@ -157,7 +156,6 @@ def next_song():
         pygame.mixer.music.stop()
         songlist.update()
 
-
 # Play Previous Song
 def prev_song():
     global is_paused
@@ -184,7 +182,6 @@ def prev_song():
         pygame.mixer.music.stop()
         songlist.update()
 
-
 # Slider Control
 # def slide(x):
 #     print(int(song_slider.get()))
@@ -195,7 +192,6 @@ def prev_song():
 
 #     pygame.mixer.music.load(cur_song)
 #     pygame.mixer.music.play(loops=0,start=song_slider.getint())
-
 
 # Volume Control
 def slide_volume(x):
