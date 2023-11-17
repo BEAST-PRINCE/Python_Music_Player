@@ -15,6 +15,7 @@ stopped = False
 
 
 root = tk.Tk()
+root.title("Music Player")
 root.geometry("800x540")
 
 
