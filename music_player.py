@@ -17,6 +17,7 @@ stopped = False
 root = tk.Tk()
 root.title("Music Player")
 root.geometry("800x540")
+root.resizable(width=False, height=False)
 
 
 # Initialize PyGame Mixer
